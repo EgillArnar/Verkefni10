@@ -1,0 +1,79 @@
+<!-- <!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Að labba með hundinn</title>
+  </head>
+
+  <body>
+    <h1> YOYO TRIKK!</h1>
+    <h3> Að labba með hundinn</h3>
+    <video src="./Learn how to Walk the Dog with a Yoyo.mp4"></video>
+    <button>Play</button>
+    <script>
+    const video = document.querySelector('video');
+    const button = document.querySelector('button');
+    button.addEventListener('click', () => {
+      if (video.paused) {
+        video.play();
+        button.removeChild(button.firstChild);
+        button.appendChild(document.createTextNode('Pause'));
+      } else {
+        video.pause();
+        button.removeChild(button.firstChild);
+        button.appendChild(document.createTextNode('Play'));
+      }
+    });
+    </script>
+  </body>
+</html>-->
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Að labba með hundinn</title>
+    <style>
+      video {
+        width: 100%;
+        height: auto;
+      }
+      button {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #3e8e41;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1> YOYO TRIKK!</h1>
+    <h3> Að labba með hundinn</h3>
+    <video src="./Learn how to Walk the Dog with a Yoyo.mp4"></video>
+    <button>Play</button>
+    <script>
+    const video = document.querySelector('video');
+    const button = document.querySelector('button');
+    button.addEventListener('click', () => {
+      if (video.paused) {
+        video.play();
+        button.removeChild(button.firstChild);
+        button.appendChild(document.createTextNode('Pause'));
+      } else {
+        video.pause();
+        button.removeChild(button.firstChild);
+        button.appendChild(document.createTextNode('Play'));
+      }
+    });
+    </script>
+  </body>
+</html>
